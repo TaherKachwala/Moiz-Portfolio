@@ -1,1 +1,46 @@
-/* PLACE YOUR CUSTOM STYLES IN THIS FILE */
+/* Custom styles for Magazine Ad & original width/height portfolio items */
+.nk-portfolio-item-natural .nk-portfolio-item-image {
+    padding-bottom: 0 !important;
+    height: auto !important;
+    position: relative;
+}
+.nk-portfolio-item-natural .nk-portfolio-item-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: contain;
+}
+.nk-portfolio-item-info .portfolio-item-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.nk-portfolio-item-info .portfolio-item-icon a.btn-action {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 14px;
+    border-radius: 4px;
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff !important;
+    text-decoration: none;
+    transition: all 0.25s ease;
+    position: relative;
+    z-index: 10;
+    font-size: 16px;
+}
+.nk-portfolio-item-info .portfolio-item-icon a.btn-action:hover {
+    background: #10c9c3;
+    color: #fff !important;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+.nk-portfolio-item-info .portfolio-item-icon a.btn-action span.badge-label {
+    font-size: 11px;
+    font-weight: 700;
+    margin-top: 3px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
